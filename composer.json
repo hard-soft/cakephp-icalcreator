@@ -1,8 +1,8 @@
 {
-  "name": "hard-soft/cakephp-s3-fineuploader",
+  "name": "hard-soft/cakephp-icalcreator",
   "description": "ICal creator methods",
   "type": "cakephp-plugin",
-  "keywords": ["cakephp", "s3", "fineuploader"],
+  "keywords": ["cakephp", "ical", "attachments"],
   "authors": [
     {
       "name": "Daniel Spöck",
