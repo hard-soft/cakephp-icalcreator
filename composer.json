@@ -1,0 +1,20 @@
+{
+  "name": "hard-soft/cakephp-s3-fineuploader",
+  "description": "ICal creator methods",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "s3", "fineuploader"],
+  "authors": [
+    {
+      "name": "Daniel Spöck",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "kigkonsult/icalcreator": "^2.30"
+  },
+  "autoload": {
+      "psr-4": {
+          "ICalcreator\\": "src/"
+      }
+  }
+}
