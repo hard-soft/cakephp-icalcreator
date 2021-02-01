@@ -57,7 +57,7 @@ trait CreatorMethods {
     
     public function addEvent ($date, $article, $postfix = "") {
         $title          = 'Termin';
-        $description    = 'Termin' . ((!empty($date['ressource']))?'bei ' . $date['ressource']:'');
+        $description    = 'Termin' . ((!empty($date['ressource']))?' bei ' . $date['ressource']:'');
         $location       = '';
         if (isset($article['description'])) {
             $title = $article['description'] . ((!empty($date['ressource']))?" bei " . $date['ressource']:'');
@@ -101,6 +101,6 @@ trait CreatorMethods {
     
     
     public function generate () {
-        return $this->calendar->vtimezonePopulate()->createCalendar();
-    }    
+        return $this->calendar->vtimezonePopulate()->returnCalendar();
+    } 
 }
