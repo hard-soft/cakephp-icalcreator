@@ -103,4 +103,8 @@ trait CreatorMethods {
     public function generate () {
         return $this->calendar->vtimezonePopulate()->returnCalendar();
     } 
+
+    public function getstring () {
+        return $this->calendar->vtimezonePopulate()->createCalendar();
+    }
 }
